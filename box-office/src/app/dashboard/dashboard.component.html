@@ -1,0 +1,25 @@
+<body>
+    <div>
+        <h3 id="head">{{head}}</h3>
+    </div>
+    <span id="span">
+        <input type="text" placeholder="Search Movie" [(ngModel)]="searchText" />
+        <button (click) = "search()" type = "button">Go</button>
+        <button (click) = "reset()" type = "button">Clear</button>
+    </span>
+    
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 card m-5" id="div" *ngFor="let movie of movies">
+                <img src="../../assets/resources/{{movie.movieTitle}}.jpg" alt="{{movie.movieTitle}}" height="200px"
+                    width="300px">
+                <div >
+                    <span><img src="../../assets/resources/rating.jpg" alt="rating"> </span><span>{{movie.rating}}</span> <br>
+                    <span>{{movie.movieTitle}}</span><span>{{movie.genre}}</span><span>{{movie.yearOfRelease}}</span>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</body>

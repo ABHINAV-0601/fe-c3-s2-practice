@@ -1,0 +1,33 @@
+
+#head{
+    color: white;
+    text-align: center;
+    font-size: xx-large;
+    margin-top: 50px;
+}
+#div{
+    background-color: black;
+}
+span{
+    color: white;
+    margin-left: 10px;
+}
+img{
+    
+    border-radius: 5%;
+}
+button{
+    background-color: rgb(213, 66, 66);
+    border-radius: 20px;
+    padding: 10px 20px 10px 20px;
+}
+input{
+    border: none;
+    border-radius: 5px;
+    padding: 5px 0px;
+    margin: 0px 5px 5px 5px;
+}
+#span{
+    border: 2px solid rgb(213, 66, 66);
+    padding: 20px 40px 20px 40px;
+}
